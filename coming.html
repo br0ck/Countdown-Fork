@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Coming</title>
+
+<!-- =========================================================== -->
+<!-- COUNTDOWN NOTE: 
+		When using more than one Countdown, 
+		we recommend placing a reference 
+		to the script once in HEAD -->
+<!-- =========================================================== -->
+<script src="countdown.js" type="text/javascript"></script>
+<link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+    
+<body>
+    <center>
+<div class="container row">
+    <div class="col-xs-2"><h2>Coming soon!</h2></div>
+    <div class="col-xs-8">
+        <script type="application/javascript">
+        var myCountdown2 = new Countdown({
+			month: 10,
+            day: 1,
+			width:400, 
+			height:80, 
+			rangeHi:"days",
+            style:"flip",
+        	numbers: {
+				font 	: "Times",
+				color	: "#FFFFFF",
+				bkgd	: "#FFFFFF",
+				fontSize : 200,
+				rounded	: 0.25,				// percentage of size 
+				shadow	: {
+					x : 0,			// x offset (in pixels)
+					y : 3,			// y offset (in pixels)
+					s : 4,			// spread
+					c : "#000000",	// color
+					a : 0.4			// alpha	// <- no comma on last item!
+				}
+			}							
+		});
+
+        </script>
+    </div>
+    <div class="col-xs-2">
+        <button class="btn btn-primary">Button</button>
+    </div>
+</div>
+    </center>
+    </body>
+    
+</html>

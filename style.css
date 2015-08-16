@@ -1,0 +1,26 @@
+h2 {
+font-family: cursive
+}
+
+/* Styling for countdown clock on Coming page */
+
+#coming-block{
+    justify-content: center;
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+}
+
+#coming-countdown {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    width: 400px;
+}
+
+#coming-email-background {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
