@@ -5,10 +5,15 @@ font-family: cursive
 /* Styling for countdown clock on Coming page */
 
 #coming-block{
+    font-family: cursive;
+    font-size: 18px;
     justify-content: center;
     border: 1px solid red;
     width: 600px;
     height: 500px;
+    background: #dfdfdf;
+    border-radius: 5%;
+    border: 1px solid black;
 }
 
 #coming-countdown {
@@ -20,7 +25,9 @@ font-family: cursive
 
 #coming-email-background {
     border: 2px solid blue;
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 10%;
 }
 
