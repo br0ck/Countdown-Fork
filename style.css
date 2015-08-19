@@ -1,25 +1,26 @@
 h2 {
-font-family: cursive
+font-family: cursive;
 }
 
 /* Styling for countdown clock on Coming page */
 
 #coming-block{
     font-family: cursive;
-    font-size: 18px;
+    font-size: 15px;
     justify-content: center;
-    border: 1px solid red;
     width: 600px;
     height: 500px;
     background: #dfdfdf;
     border-radius: 5%;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 #coming-countdown {
+    padding-top: 50pxu u;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid black;
+    border: 0px solid black;
     width: 400px;
 }
 
